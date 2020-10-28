@@ -1,0 +1,42 @@
+nav {
+   background-color: green;
+}
+
+main {
+   background-color: yellow;
+   height: 1200px;
+}
+
+#logo {
+   background-color: blue;
+   height: 100px;
+}
+
+#menu-left {
+   background-color: red;
+   height: 100px;
+   display: none;
+}
+
+#menu-right{
+   background-color: orange;
+   height: 100px;
+   display: none;
+}
+
+
+
+@media screen and (min-width:1200px) {
+
+   #icon {
+      display: none;
+   }
+
+   #menu-right {
+      display: block;
+   }
+
+   #menu-left {
+      display: block;
+   }
+}
