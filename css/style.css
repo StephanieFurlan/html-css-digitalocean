@@ -1,34 +1,87 @@
+body {
+   font-size: 16px;
+}
+
 nav {
-   background-color: green;
+   background-color: #ffffff;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   min-width: 220px;
 }
 
 main {
+   margin-top: 70px;
    background-color: yellow;
    height: 1200px;
 }
 
 #logo {
-   background-color: blue;
-   height: 100px;
+   height: 70px;
+   line-height: 70px;
+}
+#logo img {
+   width: 160px;
+   vertical-align: middle;
 }
 
-#menu-left {
-   background-color: red;
-   height: 100px;
+#menu-left,
+#menu-right {
+   height: 70px;
    display: none;
 }
 
-#menu-right{
-   background-color: orange;
-   height: 100px;
-   display: none;
+
+
+.list-inline {
+   margin-bottom: 0;
 }
+.list-inline li {
+   line-height: 70px;
+}
+.list-inline li a {
+   vertical-align: middle;
+   text-decoration: none;
+   color: black;
+}
+
+.list-inline li a:hover {
+   color: #227cfe;
+}
+
+#sing-up-btn {
+   color: #227cfe;
+   padding: 10px;
+   border: 1px solid #227cfe;
+   border-radius: 5px;
+   font-size: 14px;
+}
+
+#sing-up-btn:hover {
+   color: #ffffff;
+   background-color: #227cfe;
+}
+
+#collapse-icon {
+   color: #227cfe;
+   height: 70px;
+}
+#collapse-icon i {
+   font-size: 18px;
+   line-height: 70px;
+   vertical-align: middle;
+}
+
+
+
+
 
 
 
 @media screen and (min-width:1200px) {
 
-   #icon {
+   #collapse-icon {
       display: none;
    }
 
