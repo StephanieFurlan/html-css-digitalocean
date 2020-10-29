@@ -84,7 +84,8 @@ nav {
 #logo-section,
 #deploy-section,
 #design-section,
-#feautures-section {
+#feautures-section,
+#regions {
    padding: 50px 10px 40px 10px;
 }
 #jumbotron-title h1 {
@@ -206,6 +207,47 @@ nav {
    width: 100%;
 }
 
+/* feature section  */
+#feautures-section .section-title h2 {
+   margin-bottom: 40px;
+}
+
+/* regions section */
+#regions {
+   background-image: linear-gradient(to bottom, #0048C5 , #021E9A);
+   color: white;
+}
+
+#regions h2 {
+   font-size: 36px;
+}
+
+.regions-table  {
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.regions-table td {
+  text-align: left;
+  padding: 8px;
+}
+.regions-table td:last-child {
+  text-align: right;
+}
+.regions-table td:nth-child(2) {
+  color: #9EB1E1;
+}
+.regions-table tr:not(:last-child) {
+   border-bottom: 1px solid white;
+}
+.regions-table .blue-arrow-link {
+   color: #00c1ce;
+   font-size: 14px;
+}
+
+
+
+
 
 
 
@@ -227,7 +269,8 @@ nav {
    #logo-section,
    #deploy-section,
    #design-section,
-   #feautures-section  {
+   #feautures-section,
+   #regions  {
       padding: 50px 0 40px 0;
    }
 
