@@ -265,6 +265,11 @@ footer  {
 
 footer {
    background-color: #031C4E;
+   color: #959DB1;
+}
+
+footer img {
+   margin-bottom: 10px;
 }
 footer h4 {
    color: white;
@@ -279,6 +284,18 @@ footer h4 {
 }
 .footer-list li a {
    color: #959DB1;
+}
+
+#copyright {
+   margin-bottom: 0;
+}
+#made-in {
+   color: #4D5B7F;
+}
+
+.list-icons i {
+   color: #7A859D;
+   font-size: 24px;
 }
 
 
