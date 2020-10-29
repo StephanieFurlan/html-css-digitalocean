@@ -1,9 +1,10 @@
 body {
    font-size: 16px;
 }
-main {
-   /* background-color: yellow; */
-   height: 1200px;
+
+
+main p {
+   color: #5C6A88;
 }
 
 /* FIXED NAVIGATION BAR */
@@ -80,7 +81,10 @@ nav {
    background-position: center;
 }
 #jumbotron .container,
-#logo-section {
+#logo-section,
+#deploy-section,
+#design-section,
+#feautures-section {
    padding: 50px 10px 40px 10px;
 }
 #jumbotron-title h1 {
@@ -138,7 +142,9 @@ nav {
 /* MAIN TOP */
 
 /* logo section */
-
+#logo-section {
+   background-color: #F4F5F9;
+}
 #logo-section h2 {
    color: #6F7B97;
    font-size: 16px;
@@ -151,11 +157,54 @@ nav {
    width: 100%;
 }
 
-#logo-section a {
+.blue-arrow-link {
    color: #056AFF;
    font-size: 16px;
 }
 
+/* deploy section */
+#deploy-section ul {
+   list-style-type: none;
+   padding-left: 10px;
+   border-left: 1px solid #CCCCCC;
+   font-size: 18px;
+   color: #5C6A88;
+   margin-bottom: 20px;
+}
+
+#deploy-section ul li {
+   padding-bottom: 5px;
+   padding-top: 5px;
+}
+
+#deploy-section h2 {
+   color: black;
+}
+
+.section-title h2 {
+   font-size: 36px;
+}
+
+.section-title p {
+   font-size: 24px;
+   margin-bottom: 60px;
+}
+.info-card {
+   margin-bottom: 20px;
+}
+
+/* design section */
+#design-section {
+   background-color: #F4F5F9;
+}
+
+#design-section i {
+   display:none;
+}
+
+#design-section img {
+   width: 100%;
+}
 
 
 
@@ -175,13 +224,18 @@ nav {
       display: none;
    }
    #jumbotron .container,
-   #logo-section {
+   #logo-section,
+   #deploy-section,
+   #design-section,
+   #feautures-section  {
       padding: 50px 0 40px 0;
    }
 
    #jumbotron-title h1 {
       font-size: 72px;
    }
+
+
 
 
 }
@@ -191,12 +245,22 @@ nav {
 
    /* /FIXED NAVIGATION BAR */
 
-
+   #design-section .row {
+      height: 100%;
+   }
+   #design-section i {
+      display: inline-block;
+      font-size: 52px;
+   }
 
 
 
    .list-logo li {
       width: calc(100% / 6 - 10px);
+   }
+
+   #deploy-section ul {
+      margin-left: 30%;
    }
 
 
