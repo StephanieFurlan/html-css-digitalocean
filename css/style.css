@@ -93,7 +93,7 @@ footer  {
    padding: 50px 10px 40px 10px;
 }
 #jumbotron-title h1 {
-   color:white;
+   color: white;
 }
 #jumbotron-title p {
    color: #90B0FF;
@@ -204,13 +204,14 @@ footer  {
    background-color: #F4F5F9;
 }
 
-#design-section i {
-   display:none;
+#design-section h4 {
+   margin-top: 40px;
 }
 
 #design-section img {
    width: 100%;
 }
+
 
 /* feature section  */
 #feautures-section .section-title h2 {
@@ -260,6 +261,32 @@ footer  {
    margin: 20px 0;
    padding: 8px 15px;
 }
+
+#special-carousel {
+   padding: 40px 0;
+}
+#special-carousel img {
+   margin-bottom: 20px;
+}
+
+#special-carousel p:nth-of-type(1) {
+   font-size: 24px;
+
+}
+
+#special-carousel p:nth-of-type(2) {
+   font-weight: bold;
+   color: black;
+   margin-bottom: 0px;
+}
+
+.carousel-btns i {
+   margin-top: 20px;
+   color: #006AFF;
+   font-size: 12px;
+}
+
+
 
 /* FOOTER */
 
@@ -334,25 +361,10 @@ footer h4 {
       font-size: 72px;
    }
 
-
-
-
 }
 
 /* small */
 @media screen and (min-width: 768px) {
-
-   /* /FIXED NAVIGATION BAR */
-
-   #design-section .row {
-      height: 100%;
-   }
-   #design-section i {
-      display: inline-block;
-      font-size: 52px;
-   }
-
-
 
    .list-logo li {
       width: calc(100% / 6 - 10px);
@@ -361,6 +373,5 @@ footer h4 {
    #deploy-section ul {
       margin-left: 30%;
    }
-
 
 }
