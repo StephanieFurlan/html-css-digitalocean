@@ -25,6 +25,7 @@ nav {
 #logo img {
    width: 160px;
    vertical-align: middle;
+   padding-left: 10px;
 }
 
 #menu-left,
@@ -85,7 +86,10 @@ nav {
 #deploy-section,
 #design-section,
 #feautures-section,
-#regions {
+#regions-section,
+#get-satrted-section,
+#development-section,
+footer  {
    padding: 50px 10px 40px 10px;
 }
 #jumbotron-title h1 {
@@ -97,7 +101,7 @@ nav {
 }
 
 /* LOGIN CARD */
-#login-card {
+.card-bg {
    background-color: white;
    border-radius: 6px;
    padding: 20px 10px;
@@ -195,7 +199,8 @@ nav {
 }
 
 /* design section */
-#design-section {
+#design-section,
+#development-section {
    background-color: #F4F5F9;
 }
 
@@ -212,13 +217,15 @@ nav {
    margin-bottom: 40px;
 }
 
-/* regions section */
-#regions {
+/* regions section and get-started section */
+#regions-section,
+#get-satrted-section {
    background-image: linear-gradient(to bottom, #0048C5 , #021E9A);
    color: white;
 }
 
-#regions h2 {
+#regions-section h2,
+#get-satrted-section h2 {
    font-size: 36px;
 }
 
@@ -226,6 +233,7 @@ nav {
   font-size: 14px;
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 10px;
 }
 .regions-table td {
   text-align: left;
@@ -243,6 +251,34 @@ nav {
 .regions-table .blue-arrow-link {
    color: #00c1ce;
    font-size: 14px;
+}
+
+#create-account-btn-white {
+   color: #006AFF;
+   background-color: white;
+   font-size: 18px;
+   margin: 20px 0;
+   padding: 8px 15px;
+}
+
+/* FOOTER */
+
+footer {
+   background-color: #031C4E;
+}
+footer h4 {
+   color: white;
+}
+
+.footer-list {
+   list-style-type: none;
+   padding-left: 0;
+}
+.footer-list li {
+   padding: 5px 0;
+}
+.footer-list li a {
+   color: #959DB1;
 }
 
 
@@ -270,7 +306,10 @@ nav {
    #deploy-section,
    #design-section,
    #feautures-section,
-   #regions  {
+   #regions-section,
+   #get-satrted-section,
+   #development-section,
+   footer  {
       padding: 50px 0 40px 0;
    }
 
