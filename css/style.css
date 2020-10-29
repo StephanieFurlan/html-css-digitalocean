@@ -2,7 +2,7 @@ body {
    font-size: 16px;
 }
 main {
-   background-color: yellow;
+   /* background-color: yellow; */
    height: 1200px;
 }
 
@@ -32,18 +32,18 @@ nav {
    display: none;
 }
 
-.list-inline {
+.list-menu {
    margin-bottom: 0;
 }
-.list-inline li {
+.list-menu li {
    line-height: 70px;
 }
-.list-inline li a {
+.list-menu li a {
    vertical-align: middle;
    text-decoration: none;
    color: black;
 }
-.list-inline li a:hover {
+.list-menu li a:hover {
    color: #227cfe;
 }
 
@@ -79,8 +79,9 @@ nav {
    background-size: cover;
    background-position: center;
 }
-#jumbotron .container {
-   padding: 50px 10px;
+#jumbotron .container,
+#logo-section {
+   padding: 50px 10px 40px 10px;
 }
 #jumbotron-title h1 {
    color:white;
@@ -90,8 +91,7 @@ nav {
    font-size: 24px;
 }
 
-
-
+/* LOGIN CARD */
 #login-card {
    background-color: white;
    border-radius: 6px;
@@ -126,10 +126,34 @@ nav {
    font-size: 12px;
    color: #8690A6;
 }
-
 #login-card p a {
    color: #056AFF;
    text-decoration: underline;
+}
+/* /LOGIN CARD */
+
+/* /JUMBOTRON */
+
+
+/* MAIN TOP */
+
+/* logo section */
+
+#logo-section h2 {
+   color: #6F7B97;
+   font-size: 16px;
+}
+
+.list-logo li {
+   width: calc(100% / 2 - 10px);
+}
+.list-logo li img {
+   width: 100%;
+}
+
+#logo-section a {
+   color: #056AFF;
+   font-size: 16px;
 }
 
 
@@ -138,7 +162,8 @@ nav {
 
 
 
-@media screen and (min-width:1200px) {
+/* medium */
+@media screen and (min-width: 992px) {
 
    /* FIXED NAVIGATION BAR */
    #menu-right,
@@ -149,13 +174,30 @@ nav {
    #collapse-icon {
       display: none;
    }
-   /* /FIXED NAVIGATION BAR */
-
-   #jumbotron .container {
-      padding: 50px 0;
+   #jumbotron .container,
+   #logo-section {
+      padding: 50px 0 40px 0;
    }
 
    #jumbotron-title h1 {
       font-size: 72px;
    }
+
+
+}
+
+/* small */
+@media screen and (min-width: 768px) {
+
+   /* /FIXED NAVIGATION BAR */
+
+
+
+
+
+   .list-logo li {
+      width: calc(100% / 6 - 10px);
+   }
+
+
 }
