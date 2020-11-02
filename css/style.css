@@ -254,12 +254,13 @@ footer h4 {
    padding: 8px 15px;
 }
 
+
 #special-carousel {
    padding: 40px 0;
 }
 #special-carousel img {
    width: 50%;
-   margin-bottom: 20px;
+   margin: 20px;
 }
 
 #special-carousel p:nth-of-type(1) {
@@ -272,8 +273,12 @@ footer h4 {
    margin-bottom: 0px;
 }
 
-#development-section ul li{
+#development-section ul li {
    vertical-align: middle;
+}
+
+#development-section ul li:nth-child(2) {
+   padding: 40px 0;
 }
 
 .carousel-btns i {
@@ -314,6 +319,56 @@ footer img {
    font-size: 24px;
 }
 
+/* Chat */
+#chat {
+   position: fixed;
+   bottom: 40px;
+   left: 10px;
+   z-index: 2;
+}
+
+#icon {
+   width: 60px;
+   height: 60px;
+   background-color: blue;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   position: relative;
+   border-radius: 5%;
+}
+
+#hideOverflow {
+   border-radius: 5%;
+   height: 100%;
+   overflow: hidden;
+}
+
+#icon img {
+   height: 100%;
+}
+
+#notify {
+   text-align: center;
+   color: white;
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: red;
+   right: -10px;
+   top: -10px;
+   border: 3px solid white;
+}
+
+#text {
+   padding: 10px;
+   width: 300px;
+   margin-top: 5px;
+}
+
+#text p {
+   margin-bottom: 0;
+}
 
 /* medium (large)*/
 @media screen and (min-width: 992px) {
@@ -338,6 +393,15 @@ footer img {
    section > .container,
    footer .container {
       padding: 50px 0 40px 0;
+   }
+
+   #chat {
+      left: auto;
+      right: 10px;
+   }
+
+   #icon {
+      margin-bottom: 0px;
    }
 
 }
